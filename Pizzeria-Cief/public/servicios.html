@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" href="css/servicios.css">
+</head>
+
+<body>
+	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+	<div class="estilo-formulario">
+		<div class="entradas">
+			<h2>Entradas</h2>
+			<h3>Numero de entradas:</h3>
+			<select name="numero" id="nume">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+			<h3>Categoria:</h3>
+			<select name="localizacion" id="local">
+				<option value="1">Pista General</option>
+				<option value="2">Palco</option>
+				<option value="3">Seccion A</option>
+			</select>
+		</div>
+		<div class="datos">
+			<h2>Datos del Comprador</h2>
+			<form action="">
+				<label for="name">Nombre:</label>
+				<input type="text" id="name"><br>
+				<label for="apellidos">Apellidos:</label>
+				<input type="text" id="apellidos"><br>
+				<label for="mail">E-mail:</label>
+				<input type="email" id="mail"><br>
+				<label for="mail">Fecha de nacimiento:</label>
+				<input type="date" id="mail">
+		</div>
+
+		
+		<div class="pago">
+			<h2>Pago</h2>
+			<h3>Selecciona método de pago:</h3>
+			<input type="radio" name="" id="visa">
+			<img src="img/visaLogo.png" alt=""><br>
+			<input type="radio" name="" id="master">
+			<img src="img/masterLogo.png" alt=""><br>
+			<input type="radio" name="" id="paypal">
+			<img src="img/paypalLogo.png" alt=""><br>
+			<input type="radio" name="" id="bizum">
+			<img src="img/bizumLogo.jpg" alt=""><br>
+			<input type="checkbox" name="" id="accept">
+			<label for="">Acepto las condiciones de compra</label><br>
+			<form action="/ejercicio2b.html" method="get">
+				<input type="submit" value="Proceder al pago" class="boton">
+			</form>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>

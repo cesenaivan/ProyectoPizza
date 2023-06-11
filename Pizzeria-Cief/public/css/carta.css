@@ -1,0 +1,29 @@
+*{
+
+    background-color: rgb(246, 225, 195);
+}
+img {
+    width: 100px;
+    margin-left: 0px;
+
+}
+table, img{
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid rgb(24, 17, 17);
+}
+table {
+    width: 1200px;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
